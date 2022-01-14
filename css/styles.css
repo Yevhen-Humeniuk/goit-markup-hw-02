@@ -1,12 +1,12 @@
+/*--style logo--*/
 .link-logo {
   color: #2196f3;
 }
 .logo2 {
   color: black;
 }
-body {
-  font-family: "Roboto", sans-serif;
-}
+
+/*---Приховав "Наші переваги" в індекс----*/
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -18,4 +18,13 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+/*--style index*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+}
+/*--header--*/
+.header-link:hover {
+  color: #2196f3;
 }
