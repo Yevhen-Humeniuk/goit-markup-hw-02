@@ -53,6 +53,7 @@ a {
   color: #ffffff;
 }
 .hero-btn {
+  cursor: pointer;
   font-weight: bold;
   font-size: 1, 87;
   line-height: 30px;
@@ -153,6 +154,7 @@ a {
 
 /*--hero--*/
 .btn-portfolio {
+  cursor: pointer;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
