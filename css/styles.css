@@ -29,6 +29,9 @@
   line-height: 31px;
   letter-spacing: 0.03em;
 }
+ul {
+  list-style: none;
+}
 body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
