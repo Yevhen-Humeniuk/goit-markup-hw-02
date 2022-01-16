@@ -1,3 +1,7 @@
+:root {
+  --primary-text-color: #ffffff;
+  --title-text-color: #212121;
+}
 /*--style logo--*/
 .link-logo {
   color: #2196f3;
@@ -29,9 +33,11 @@
   line-height: 31px;
   letter-spacing: 0.03em;
 }
+/*--del-points*/
 ul {
   list-style: none;
 }
+/*--base-body-colors-font--*/
 body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
