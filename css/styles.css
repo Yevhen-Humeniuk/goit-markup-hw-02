@@ -1,21 +1,44 @@
 /*--style logo--*/
 .link-logo {
   color: #2196f3;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1, 19;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 .logo2 {
   color: black;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1, 19;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo3 {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1, 19;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: #757575;
 }
-a {
-  text-decoration: none;
-}
+
 /*--style index*/
 /*--header--*/
 .header-link {
-  font-family: Roboto;
+  text-decoration: none;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 1, 14;
@@ -23,15 +46,39 @@ a {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.header-link:hover {
+.mail-link {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.tel-link {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.tel-link:hover,
+.tel-link:focus {
   color: #2196f3;
 }
+.mail-link:hover,
+.mail-link:focus {
+  color: #2196f3;
+}
+.header-link:hover,
 .header-link:focus {
   color: #2196f3;
 }
-.connect-list:hover {
-  color: #2196f3;
-}
+.connect-list:hover,
 .connect-list:focus {
   color: #2196f3;
 }
@@ -133,19 +180,36 @@ a {
   color: #757575;
 }
 /*--footer--*/
-.footer-item {
-  font-family: inherit;
+.footer {
+  background-color: #2f303a;
+}
+.footer-item-adres {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: normal;
   font-size: 1, 71;
   line-height: 24px;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-item-adres:focus,
+.footer-item-adres:hover {
   color: #ffffff;
 }
-.footer-item:hover {
-  color: #2196f3;
+.footer-item {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1, 71;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
+.footer-item:hover,
 .footer-item:focus {
-  color: #2196f3;
+  color: #ffffff;
 }
 
 /*--portfolio--*/
