@@ -171,7 +171,7 @@ body {
   color: #212121;
 }
 .team-item-posttitle {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 1, 18;
@@ -185,7 +185,7 @@ body {
 }
 .footer-item-adres {
   text-decoration: none;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 1, 71;
@@ -199,7 +199,7 @@ body {
 }
 .footer-item {
   text-decoration: none;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 1, 71;
@@ -219,7 +219,7 @@ body {
 /*--hero--*/
 .btn-portfolio {
   cursor: pointer;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 1, 62;
@@ -235,7 +235,8 @@ body {
   border-radius: 4px;
 }
 .projects-title {
-  font-family: Roboto;
+  text-decoration: none;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 2, 00;
@@ -244,7 +245,8 @@ body {
   color: #212121;
 }
 .projects-posttitle {
-  font-family: Roboto;
+  text-decoration: none;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 1, 87;
