@@ -37,8 +37,9 @@ body {
 
 /*--style index*/
 /*--header--*/
-.header,
+
 .header-link {
+  font-family: "Roboto";
   text-decoration: none;
 
   font-weight: 500;
