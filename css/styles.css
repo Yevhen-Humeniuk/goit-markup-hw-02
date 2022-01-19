@@ -5,6 +5,9 @@
   --background-color: #2f303a;
   --hero-text-color: #ffffff;
   --shadow-color: rgba(0, 0, 0, 0.15);
+  --hover-btn-color: #188ce8;
+  --footer-item-adres-color: rgba(255, 255, 255, 0.6);
+  --box-shadow-color: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /*--style logo--*/
 .link-logo {
@@ -38,7 +41,6 @@ body {
 /*--header--*/
 
 .header-link {
-  font-family: "Roboto";
   text-decoration: none;
   font-size: 14px;
   line-height: 1.14;
@@ -48,7 +50,6 @@ body {
 .mail-link,
 .tel-link {
   text-decoration: none;
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -56,19 +57,24 @@ body {
 }
 
 .tel-link:hover,
-.tel-link:focus {
+.tel-link:focus,
+.tel-link:active {
   color: var(--accent-color);
 }
 .mail-link:hover,
-.mail-link:focus {
+.mail-link:focus,
+.mail-link:active {
   color: var(--accent-color);
 }
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.header-link:active {
   color: var(--accent-color);
 }
 .connect-list:hover,
-.connect-list:focus {
+.connect-list:focus,
+.connect-list:active,
+.current {
   color: var(--accent-color);
 }
 
@@ -83,6 +89,7 @@ body {
   color: var(--hero-text-color);
 }
 .hero-btn {
+  font-family: inherit;
   cursor: pointer;
   font-size: 16px;
   line-height: 1.87;
@@ -92,12 +99,13 @@ body {
   letter-spacing: 0.06em;
   color: var(--hero-text-color);
   background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--box-shadow-color);
   border-radius: 4px;
 }
 .hero-btn:hover,
-.hero-btn:focus {
-  color: var(--header-links-title-text-color);
+.hero-btn:focus,
+.hero-btn:active {
+  color: var(--hover-btn-color);
 }
 
 /*--advantages*/
@@ -162,30 +170,30 @@ body {
 }
 .footer-item-adres {
   text-decoration: none;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-item-adres-color);
 }
 .footer-item-adres:focus,
-.footer-item-adres:hover {
+.footer-item-adres:hover,
+.footer-item-adres:active {
   color: var(--hero-text-color);
 }
-.footer-item {
+.footer-link {
   text-decoration: none;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-item-adres-color);
 }
-.footer-item:hover,
-.footer-item:focus {
+.footer-link:hover,
+.footer-link:focus,
+.footer-link:active {
   color: var(--hero-text-color);
 }
 
@@ -195,39 +203,36 @@ body {
 
 /*--hero--*/
 .btn-portfolio {
+  font-family: inherit;
   cursor: pointer;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 1, 62;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--header-links-title-text-color);
 }
-.btn-portfolio:hover {
+.btn-portfolio:hover,
+.btn-portfolio:focus,
+.btn-portfolio:active {
+  color: var(--hero-text-color);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.projects-title {
+.projects-link {
   text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2, 00;
-  line-height: 36px;
+}
+.projects-title {
+  font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--header-links-title-text-color);
 }
 .projects-posttitle {
-  text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1, 87;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
