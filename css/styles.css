@@ -58,19 +58,13 @@ body {
 
 .tel-link:hover,
 .tel-link:focus,
-.tel-link:active {
-  color: var(--accent-color);
-}
+.tel-link:active,
 .mail-link:hover,
 .mail-link:focus,
-.mail-link:active {
-  color: var(--accent-color);
-}
+.mail-link:active,
 .header-link:hover,
 .header-link:focus,
-.header-link:active {
-  color: var(--accent-color);
-}
+.header-link:active,
 .connect-list:hover,
 .connect-list:focus,
 .connect-list:active,
@@ -168,7 +162,8 @@ body {
 .footer {
   background-color: var(--background-color);
 }
-.footer-item-adres {
+.footer-item-adres,
+.footer-link {
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
@@ -179,18 +174,7 @@ body {
 }
 .footer-item-adres:focus,
 .footer-item-adres:hover,
-.footer-item-adres:active {
-  color: var(--hero-text-color);
-}
-.footer-link {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--footer-item-adres-color);
-}
+.footer-item-adres:active,
 .footer-link:hover,
 .footer-link:focus,
 .footer-link:active {
